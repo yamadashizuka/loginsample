@@ -1,0 +1,19 @@
+﻿<h1>Logingate#signup</h1>
+<p>Find me in app/views/logingate/signup.html.erb</p>
+
+<form action="signdup" method="get">
+<table>
+  <tr>
+    <td><%= label_tag :name, 'ユーザー名：' %></td>
+    <td><%= text_field_tag :name, params[:name] %></td>
+  </tr>
+  <tr>
+    <td><%= label_tag :pass, 'パスワード：' %></td>
+    <td><%= password_field_tag :pass, params[:pass] %></td>
+  </tr>
+ <tr>
+    <td></td>
+    <td><input name="loginButton" type="submit" value="ログイン"></td>
+  </tr>
+</table>
+</form>

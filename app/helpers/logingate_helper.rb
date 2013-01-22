@@ -1,0 +1,2 @@
+module LogingateHelper
+end
